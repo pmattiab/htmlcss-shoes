@@ -5,7 +5,11 @@
 }
 
 body {
-    font-family: "Rubik Mono One";
+    font-family: "Rubik Mono One", Arial, Helvetica, sans-serif;
+}
+
+.main {
+    position: relative;
 }
 
 .contenitore section {
@@ -40,4 +44,22 @@ body {
 .sezione3 {
     color: green;
     background-color: yellow;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px black;
+}
+
+nav ul {
+    position: fixed;
+    top: 20px;
+    right: 10px;
 }
