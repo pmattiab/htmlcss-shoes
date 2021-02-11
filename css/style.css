@@ -48,6 +48,13 @@ body {
     width: 100%;
 }
 
+nav ul {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 1;
+}
+
 nav ul li {
     display: inline-block;
     margin: 15px;
@@ -58,11 +65,4 @@ nav ul li {
     background-color: white;
     border-radius: 50%;
     box-shadow: 1px 1px 1px black;
-}
-
-nav ul {
-    position: fixed;
-    top: 20px;
-    right: 10px;
-    z-index: 1;
 }
